@@ -89,12 +89,6 @@ a:hover {
     left: 0;
     right: 0;
 }
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -755,7 +749,7 @@ ul{
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -866,6 +860,8 @@ ul{
 @media (max-width: 991px) {
     .container {
         width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -883,6 +879,8 @@ ul{
     .bloc-group .bloc {
         display: block;
         width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
@@ -896,6 +894,8 @@ ul{
     .page-container {
         overflow-x: hidden;
         position: relative;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     h1,
     h2,
