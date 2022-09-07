@@ -356,7 +356,7 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-device-width: 768px) {
+@media screen and (max-width: 1024px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -819,7 +819,7 @@ ul{
     background-image: url("img/image-de-presentation.bmp");
 }
 
-@media (max-device-width: 1024px) {
+@media screen and  (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -842,13 +842,13 @@ ul{
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media screen and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media screen and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -881,7 +881,7 @@ ul{
 
     }
 }
-@media (max-device-width: 767px) {
+@media  screen and (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1022,14 +1022,14 @@ ul{
     }
 }
 
-@media (max-device-width: 400px) {
+@media screen and  (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
 }
 
-@media (max-device-width: 767px) {
+@media screen and  (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
