@@ -356,7 +356,7 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
+@media (min-device-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -623,9 +623,8 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .modal-body {
     padding-bottom: 45px;
-    font: size 20px; ;
+    font-size: 20px; 
 }
-
 .snapshot-lb .lightbox-caption {
     padding: 0;
     color: rgba(0, 0, 0, .5);
@@ -820,7 +819,7 @@ ul{
     background-image: url("img/image-de-presentation.bmp");
 }
 
-@media (max-width: 1024px) {
+@media (max-device-width: 1024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -834,7 +833,7 @@ ul{
     }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media (max-width: 992px) and (min-device-width: 768px) {
     .navbar .nav {
         max-width: 100%
     }
@@ -869,10 +868,6 @@ ul{
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -883,12 +878,10 @@ ul{
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+
     }
 }
-
-@media (max-width: 767px) {
+@media (max-device-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1029,14 +1022,14 @@ ul{
     }
 }
 
-@media (max-width: 400px) {
+@media (max-device-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-device-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
